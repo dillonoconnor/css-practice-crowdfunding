@@ -1,0 +1,118 @@
+html {
+  background-color: hsl(0, 0%, 48%);
+  font-family: 'Commissioner', sans-serif;
+}
+
+body {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.container {
+  position: relative;
+  top: -4rem;
+  padding: 0 15rem;
+}
+
+.funding-container {
+  background-color: white;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 1rem;
+  border: 1px solid rgb(153, 153, 153);
+  box-shadow:hsl(0, 0%, 29%)
+}
+
+.funding-item {
+  text-align: center;
+}
+
+.funding-item-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.funding-item-subtitle {
+  font-size: 1rem;
+  color: gray;
+}
+
+.hero {
+  background-image: url("./images/image-hero-desktop.jpg");
+  height: 400px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 5rem;
+}
+
+.navbar-link-container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.navbar-item {
+  padding: 1rem;
+  text-decoration: none;
+  color: white;
+}
+
+.product-container {
+  background-color: white;
+  border-radius: 5px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border: 1px solid rgb(153, 153, 153);
+  box-shadow:hsl(0, 0%, 29%)
+}
+
+.product-title {
+  text-align: center;
+  margin-top: 1rem;
+  margin-bottom: 0.2rem;
+}
+
+.product-subtitle {
+  color: gray;
+  font-weight: 300;
+  text-align: center;
+  margin-top: 0rem;
+  margin-bottom: 1rem;
+}
+
+.user-controls {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2.5rem;
+  padding: 0 9rem;
+}
+
+.button {
+  border-radius: 500px;
+  font-weight: 500;
+  padding: 15px 30px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.backing-button {
+  background-color: hsl(176, 50%, 47%);
+  color: white;
+}
+
+.bookmark-button {
+  color: hsl(0, 0%, 29%);
+  background-color: rgb(194, 194, 194);
+  position: relative;
+  padding-left: 50px;
+}
+
+.boomark-button-img {
+  position: absolute;
+  height: 100%;
+  left: -0.4rem;
+  top: 0rem;
+}
