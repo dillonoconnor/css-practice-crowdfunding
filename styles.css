@@ -1,5 +1,5 @@
 html {
-  background-color: hsl(0, 0%, 48%);
+  background-color: hsl(0, 0%, 88%);
   font-family: 'Commissioner', sans-serif;
 }
 
@@ -8,20 +8,35 @@ body {
   margin: 0 auto;
 }
 
+.card {
+  border: 1px solid grey;
+  padding: 2rem;
+}
+
+.card-flex-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .container {
   position: relative;
   top: -4rem;
   padding: 0 15rem;
 }
 
-.funding-container {
+.content-box {
   background-color: white;
+  border: 1px solid rgb(153, 153, 153);
   border-radius: 5px;
+  box-shadow:hsl(0, 0%, 29%);
+  margin-bottom: 1rem;
+  padding: 1rem;
+}
+
+.funding-container {
   display: flex;
   justify-content: space-evenly;
-  padding: 1rem;
-  border: 1px solid rgb(153, 153, 153);
-  box-shadow:hsl(0, 0%, 29%)
 }
 
 .funding-item {
@@ -60,15 +75,6 @@ body {
   color: white;
 }
 
-.product-container {
-  background-color: white;
-  border-radius: 5px;
-  padding: 1rem;
-  margin-bottom: 1rem;
-  border: 1px solid rgb(153, 153, 153);
-  box-shadow:hsl(0, 0%, 29%)
-}
-
 .product-title {
   text-align: center;
   margin-top: 1rem;
@@ -81,6 +87,10 @@ body {
   text-align: center;
   margin-top: 0rem;
   margin-bottom: 1rem;
+}
+
+.text-cyan {
+  color:hsl(176, 50%, 47%);
 }
 
 .user-controls {
@@ -101,6 +111,11 @@ body {
 .backing-button {
   background-color: hsl(176, 50%, 47%);
   color: white;
+}
+
+.backing-button:hover {
+  background-color: hsl(176, 72%, 28%);
+  transition: background-color 0.2s;
 }
 
 .bookmark-button {
