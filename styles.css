@@ -8,12 +8,17 @@ body {
   margin: 0 auto;
 }
 
-.card {
-  border: 1px solid grey;
-  padding: 2rem;
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
 }
 
-.card-flex-header {
+.card {
+  border: 1px solid grey;
+  border-radius: 5px;
+  padding: 1.5rem;
+}
+
+.card-flex {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -32,6 +37,10 @@ body {
   box-shadow:hsl(0, 0%, 29%);
   margin-bottom: 1rem;
   padding: 1rem;
+}
+
+.disabled {
+  cursor: not-allowed;
 }
 
 .funding-container {
@@ -58,6 +67,10 @@ body {
   height: 400px;
 }
 
+.inactive {
+  opacity: 0.5;
+}
+
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -73,6 +86,12 @@ body {
   padding: 1rem;
   text-decoration: none;
   color: white;
+}
+
+.num-remaining {
+  font-weight: 700;
+  font-size: 1.5rem;
+  margin-right: 0.5rem;
 }
 
 .product-title {
@@ -93,6 +112,14 @@ body {
   color:hsl(176, 50%, 47%);
 }
 
+.text-grey {
+  color: grey;
+}
+
+.text-white {
+  color: white;
+}
+
 .user-controls {
   display: flex;
   justify-content: space-between;
@@ -108,26 +135,29 @@ body {
   text-decoration: none;
 }
 
-.backing-button {
+.green-button {
   background-color: hsl(176, 50%, 47%);
   color: white;
 }
 
-.backing-button:hover {
+.green-button:hover {
   background-color: hsl(176, 72%, 28%);
   transition: background-color 0.2s;
 }
 
-.bookmark-button {
-  color: hsl(0, 0%, 29%);
+.grey-button {
   background-color: rgb(194, 194, 194);
   position: relative;
   padding-left: 50px;
 }
 
-.boomark-button-img {
+.grey-button-img {
   position: absolute;
   height: 100%;
   left: -0.4rem;
   top: 0rem;
+}
+
+.mt-medium {
+  margin-top: 2.5rem; 
 }
