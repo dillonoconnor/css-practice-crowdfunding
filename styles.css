@@ -71,6 +71,46 @@ h1, h2, h3, h4, h5, h6 {
   opacity: 0.5;
 }
 
+.modal {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  visibility: hidden;
+  z-index: 1;
+}
+
+.modal-content {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 1rem 1.5rem;
+  width: 30%;
+  border-radius: 0.5rem;
+}
+
+.show-modal {
+  visibility: visible;
+}
+
+.close-button {
+  float: right;
+  font-size: 2rem;
+  width: 2rem;
+  line-height: 2rem;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 0.25rem;
+}
+
+.close-button:hover {
+  background-color: darkgray;
+}
+
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -88,10 +128,14 @@ h1, h2, h3, h4, h5, h6 {
   color: white;
 }
 
+.no-margin {
+  margin: 0;
+}
+
 .num-remaining {
   font-weight: 700;
   font-size: 1.5rem;
-  margin-right: 0.5rem;
+  margin: 0 0.5rem;
 }
 
 .product-title {
@@ -118,6 +162,10 @@ h1, h2, h3, h4, h5, h6 {
 
 .text-white {
   color: white;
+}
+
+.text-black {
+  color: black;
 }
 
 .user-controls {
@@ -148,6 +196,7 @@ h1, h2, h3, h4, h5, h6 {
 .grey-button {
   background-color: rgb(194, 194, 194);
   position: relative;
+  z-index: 0;
   padding-left: 50px;
 }
 
@@ -156,6 +205,10 @@ h1, h2, h3, h4, h5, h6 {
   height: 100%;
   left: -0.4rem;
   top: 0rem;
+}
+
+.mt-small {
+  margin-top: 1.5rem;
 }
 
 .mt-medium {
