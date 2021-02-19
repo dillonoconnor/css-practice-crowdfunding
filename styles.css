@@ -17,8 +17,17 @@ p {
   color: hsl(0, 0%, 48%);
 }
 
+
 .border-cyan {
   border: 1px solid hsl(176, 50%, 47%)!important;
+}
+
+.bookmarked {
+  color: hsl(176, 50%, 47%);
+}
+
+.bookmarked-img-bg {
+  filter: invert(62%) sepia(70%) saturate(335%) hue-rotate(127deg) brightness(85%) contrast(99%);
 }
 
 .circle {
@@ -206,6 +215,10 @@ p {
   font-size: 1.25rem;
 }
 
+.text-relaxed {
+  line-height: 1.7rem;
+}
+
 .user-controls {
   display: flex;
   justify-content: space-between;
@@ -230,19 +243,25 @@ p {
 .green-button:hover {
   background-color: hsl(176, 72%, 28%);
   transition: background-color 0.2s;
+  cursor: pointer;
 }
 
 .grey-button {
-  background-color: rgb(194, 194, 194);
+  background-color: rgb(236, 236, 236);
   position: relative;
   z-index: 0;
   padding-left: 50px;
 }
 
+.grey-button:hover {
+  background-color: rgb(240, 240, 240);
+  transition: background-color 0.2s;
+  cursor: pointer;
+}
+
 .grey-button-img {
   position: absolute;
-  height: 100%;
-  left: -0.4rem;
+  left: -0.7rem;
   top: 0rem;
 }
 
