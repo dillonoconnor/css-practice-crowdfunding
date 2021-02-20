@@ -37,7 +37,7 @@
           <a class="button green-button text-grey">Back this project</a>
         </div>
         <div class="modal">
-          <div class="modal-content">
+          <div class="modal-content" id="options-modal">
             <span class="close-button">&times;</span>
             <h2>Back this project</h2>
             <p>Want to support us in bringing Mastercraft Bamboo Monitor Riser out in the world?</p>
@@ -75,7 +75,7 @@
                     <div class="button outline-button mr-small">
                       <span class="text-grey">$<input class="text-size-normal" type="number"></span>
                     </div>
-                    <a href="#" class="button green-button">
+                    <a href="#" class="button green-button" data="continue">
                       Continue
                     </a>
                   </div>
@@ -98,6 +98,17 @@
                   You get a Black Special Edition computer stand and a personal thank you. You’ll be added to our Backer
                   member list. Shipping is included.
                 </p>
+                <div id="pledge-box-2" class="hidden card-flex outline-top mt-xs pt-xs">
+                  <p class="no-margin">Enter your pledge</p>
+                  <div class="card-flex">
+                    <div class="button outline-button mr-small">
+                      <span class="text-grey">$<input class="text-size-normal" type="number"></span>
+                    </div>
+                    <a href="#" class="button green-button" data="continue">
+                      Continue
+                    </a>
+                  </div>
+                </div>
               </div>
             </article>
             <article class="card mt-small article-flex inactive">
@@ -118,6 +129,17 @@
                 </p>
               </div>
             </article>
+          </div>
+          <div class="modal-content hidden align-center" id="thanks-modal">
+            <img src="./images/icon-check.svg" />
+            <h1 class="mt-small">Thanks for your support!</h1>
+            <p>
+              Your pledge brings us one step closer to sharing Mastercraft Bamboo Monitor Riser worldwide. You will get
+              an email once our campaign is completed.
+            </p>
+            <div class="mt-medium">
+              <a href="#" class="button green-button" id="okay">Got it!</a>
+            </div>
           </div>
         </div>
         <a class="button grey-button" id="bookmark-button">
@@ -209,43 +231,6 @@
       </article>
     </section>
   </main>
-  
-
-  <!-- Selection modal start -->
-
-
-
-  <!-- Selected pledge start -->
-  Enter your pledge
-  $25
-  Continue
-  <!-- Selected pledge end -->
-
-
-
-  <!-- Selected pledge start -->
-  Enter your pledge
-  $75
-  Continue
-  <!-- Selected pledge end -->
-
-  <!-- Selected pledge  start -->
-  Enter your pledge
-  $200
-  Continue
-  <!-- Selected pledge end -->
-
-  <!-- Selection modal end -->
-
-  <!-- Success modal start -->
-
-  Thanks for your support!
-  Your pledge brings us one step closer to sharing Mastercraft Bamboo Monitor Riser worldwide. You will get
-  an email once our campaign is completed.
-  Got it!
-
-  <!-- Success modal end -->
-
   <script src="index.js"></script>
 </body>
 </html>
