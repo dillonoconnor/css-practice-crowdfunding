@@ -29,8 +29,8 @@
     </nav>
   </header>
   <main class="container">
-    <section class="content-box">
-      <h1 class="product-title">Mastercraft Bamboo Monitor Riser</h1>
+    <section class="content-box" id="product-header">
+      <h1 class="product-title mt-small">Mastercraft Bamboo Monitor Riser</h1>
       <h3 class="product-subtitle">A beautiful & handcrafted monitor stand to reduce neck and eye strain.</h3>
       <div class="user-controls">
         <div class="trigger">
@@ -69,6 +69,17 @@
                   You get an ergonomic stand made of natural bamboo. You've helped us launch our promotional campaign, and
                   you’ll be added to a special Backer member list.
                 </p>
+                <div id="pledge-box-1" class="hidden card-flex outline-top mt-xs pt-xs">
+                  <p class="no-margin">Enter your pledge</p>
+                  <div class="card-flex">
+                    <div class="button outline-button mr-small">
+                      <span class="text-grey">$<input class="text-size-normal" type="number"></span>
+                    </div>
+                    <a href="#" class="button green-button">
+                      Continue
+                    </a>
+                  </div>
+                </div>
               </div>
             </article> 
             <article class="card article-flex mt-small">
@@ -110,13 +121,13 @@
           </div>
         </div>
         <a class="button grey-button" id="bookmark-button">
-          <svg class="grey-button-img" viewBox= "0 0 56 56" width="56" height="auto" xmlns="http://www.w3.org/2000/svg">
+          <svg class="grey-button-img" viewBox= "0 0 56 56" width="50" height="50" xmlns="http://www.w3.org/2000/svg">
             <g fill="none" fill-rule="evenodd">
               <circle fill="#2F2F2F" cx="28" cy="28" r="28"/>
               <path fill="#B1B1B1" d="M23 19v18l5-5.058L33 37V19z"/>
             </g>
           </svg>
-          Bookmark
+          <span id="bookmarkText">Bookmark</span>
         </a>
       </div>
     </section>
