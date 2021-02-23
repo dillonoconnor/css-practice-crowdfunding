@@ -26,6 +26,9 @@
         <a href="#" class="navbar-item">Discover</a>
         <a href="#" class="navbar-item">Get Started</a>
       </div>
+      <span class="hamburger">
+        <img src="./images/icon-hamburger.svg" alt="">
+      </span>
     </nav>
   </header>
   <main class="container">
@@ -33,38 +36,43 @@
       <h1 class="product-title mt-small">Mastercraft Bamboo Monitor Riser</h1>
       <h3 class="product-subtitle">A beautiful & handcrafted monitor stand to reduce neck and eye strain.</h3>
       <div class="user-controls">
-        <div class="trigger">
-          <a class="button green-button text-grey">Back this project</a>
-        </div>
+        <a class="trigger button green-button text-grey">Back this project</a>
         <div class="modal">
           <div class="modal-content" id="options-modal">
             <span class="close-button">&times;</span>
             <h2>Back this project</h2>
             <p>Want to support us in bringing Mastercraft Bamboo Monitor Riser out in the world?</p>
-            <article class="card article-flex mt-medium">
-              <div class="article-left">
+
+            <article class="card article-grid mt-medium">
+              <div class="article-selector">
                 <span class="circle" id="backing-option-1"></span>
               </div>
-              <div class="article-right">
+              <div class="article-title">
                 <h4 class="text-cyan">Pledge with no reward</h4>
+              </div>
+              <div class="article-desc">
                 <p>
                   Choose to support us without a reward if you simply believe in our project. As a backer, 
                   you will be signed up to receive product updates via email.
                 </p>
               </div>
             </article>
-            <article class="card article-flex mt-small">
-              <div class="article-left">
+
+            <article class="card article-grid mt-small">
+              <div class="article-selector">
                 <span class="circle" id="backing-option-2"></span>
               </div>
-              <div class="article-right">
-                <div class="card-flex">
-                  <h4 class="text-cyan">Bamboo Stand&emsp;Pledge $25 or more</h4>
-                  <div class="card-flex">
-                    <p class="num-remaining text-black">101</p>
-                    <p class="text-grey no-margin">left</p>
-                  </div>
+              <div class="article-title">
+                <div class="article-flex">
+                  <h4 class="inline-block mr-small">Bamboo Stand</h4>
+                  <span class="text-cyan"><strong>Pledge $25 or more</strong></span>
                 </div>
+              </div>
+              <div class="article-count article-flex ">
+                <p class="num-remaining text-black">101</p>
+                <p class="text-grey no-margin">left</p>
+              </div>
+              <div class="article-desc">
                 <p>
                   You get an ergonomic stand made of natural bamboo. You've helped us launch our promotional campaign, and
                   you’ll be added to a special Backer member list.
@@ -82,18 +90,22 @@
                 </div>
               </div>
             </article> 
-            <article class="card article-flex mt-small">
-              <div class="article-left">
+
+            <article class="card article-grid mt-small">
+              <div class="article-selector">
                 <span class="circle" id="backing-option-3"></span>
               </div>
-              <div class="article-right">
-                <div class="card-flex">
-                  <h4 class="text-cyan"><span class="text-black">Black Edition Stand</span>&emsp;Pledge $75 or more</h4>
-                  <div class="card-flex">
-                    <p class="num-remaining text-black">64</p>
-                    <p class="text-grey no-margin">left</p>
-                  </div>
+              <div class="article-title">
+                <div class="article-flex">
+                  <h4 class="inline-block mr-small">Black Edition Stand</h4>
+                  <span class="text-cyan"><strong>Pledge $75 or more</strong></span>
                 </div>
+              </div>
+              <div class="article-count article-flex">
+                <p class="num-remaining text-black">64</p>
+                <p class="text-grey no-margin">left</p>
+              </div>
+              <div class="article-desc">
                 <p>
                   You get a Black Special Edition computer stand and a personal thank you. You’ll be added to our Backer
                   member list. Shipping is included.
@@ -111,18 +123,22 @@
                 </div>
               </div>
             </article>
-            <article class="card mt-small article-flex inactive">
-              <div class="article-left">
+
+            <article class="card mt-small article-grid inactive">
+              <div class="article-selector">
                 <span class="circle disabled" id="backing-option-4"></span>
               </div>
-              <div class="article-right">
-                <div class="card-flex">
-                  <h4 class="text-cyan"><span class="text-black">Mahogany Special Edition</span>&emsp;Pledge $200 or more</h4>
-                  <div class="card-flex">
-                    <p class="num-remaining text-black">0</p>
-                    <p class="text-grey no-margin">left</p>
-                  </div>
+              <div class="article-title">
+                <div class="article-flex">
+                  <h4 class="inline-block mr-small">Mahogany Special Edition</h4>
+                  <span class="text-cyan"><strong>Pledge $200 or more</strong></span>
                 </div>
+              </div>
+              <div class="article-count article-flex">
+                <p class="num-remaining text-black">0</p>
+                <p class="text-grey no-margin">left</p>
+              </div>
+              <div class="article-desc">
                 <p>
                   You get two Special Edition Mahogany stands, a Backer T-Shirt, and a personal thank you. You’ll be added
                   to our Backer member list. Shipping is included.
@@ -153,18 +169,23 @@
         </a>
       </div>
     </section>
-    <section class="content-box funding-container">
-      <div class="funding-item">
-        <p class="funding-item-title text-black">$89,914</p>
-        <p class="funding-item-subtitle"> of $100,000 backed</p>
+    <section class="content-box">
+      <div class="funding-container">
+        <div class="funding-item">
+          <p class="funding-item-title text-black">$89,914</p>
+          <p class="funding-item-subtitle"> of $100,000 backed</p>
+        </div>
+        <div class="funding-item">
+          <p class="funding-item-title text-black">5,007</p>
+          <p class="funding-item-subtitle">total backers</p>
+        </div>
+        <div class="funding-item">
+          <p class="funding-item-title text-black">56</p>
+          <p class="funding-item-subtitle">days left</p>
+        </div>
       </div>
-      <div class="funding-item">
-        <p class="funding-item-title text-black">5,007</p>
-        <p class="funding-item-subtitle">total backers</p>
-      </div>
-      <div class="funding-item">
-        <p class="funding-item-title text-black">56</p>
-        <p class="funding-item-subtitle">days left</p>
+      <div class="funding-bar">
+        <div class="funding-bar-funded"></div>
       </div>
     </section>
     <section class="content-box text-relaxed">

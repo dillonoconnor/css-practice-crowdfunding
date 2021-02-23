@@ -14,6 +14,7 @@ let pledgeBox1 = document.querySelector("#pledge-box-1");
 let pledgeBox2 = document.querySelector("#pledge-box-2");
 let continueButtons = document.querySelectorAll("a[data='continue']");
 let okayButton = document.querySelector("#okay");
+let hamburger = document.querySelector(".hamburger img");
 
 const toggleModal = () => {
   modal.classList.toggle("show-modal");
@@ -84,6 +85,12 @@ const toggleThankYou = () => {
   thanksModal.classList.toggle("hidden");
 }
 
+const toggleHamburger = () => {
+  let items = document.querySelector(".navbar-link-container")
+  items.classList.toggle("block");
+}
+
+
 trigger.addEventListener("click", toggleModal);
 closeButton.addEventListener("click", toggleModal);
 window.addEventListener("click", windowOnClick);
@@ -91,3 +98,4 @@ circles.forEach(circle => circle.addEventListener("click", toggleSelection));
 bookmarkButton.addEventListener("click", toggleBookmarked);
 continueButtons.forEach(button => button.addEventListener("click", toggleThankYou));
 okayButton.addEventListener("click", toggleModal);
+hamburger.addEventListener("click", toggleHamburger);
